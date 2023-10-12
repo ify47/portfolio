@@ -14,66 +14,66 @@ export const navigation: NavigationType[] = [
 export const mySkills: SkillsType[] = [
   {
     name: "HTML",
-    location: "/assets/icons/html.svg",
+    location: "html.svg",
     alt: "HTML Logo",
   },
-  { name: "CSS", location: "../../src/assets/icons/css.svg", alt: "CSS Logo" },
+  { name: "CSS", location: "css.svg", alt: "CSS Logo" },
   {
     name: "JavaScript",
-    location: "../../src/assets/icons/javascript.svg",
+    location: "javascript.svg",
     alt: "Javascript Logo",
   },
   {
     name: "TypeScript",
-    location: "../../src/assets/icons/typescript.svg",
+    location: "typescript.svg",
     alt: "Typescript Logo",
   },
   {
     name: "React",
-    location: "../../src/assets/icons/react.svg",
+    location: "react.svg",
     alt: "React Logo",
   },
   {
     name: "Vue",
-    location: "../../src/assets/icons/vueicon.svg",
+    location: "vueicon.svg",
     alt: "Vue Logo",
   },
   {
     name: "Sass/Scss",
-    location: "../../src/assets/icons/tailwind.svg",
+    location: "tailwind.svg",
     alt: "Sass/Scss Logo",
   },
   {
     name: "Tailwindcss",
-    location: "../../src/assets/icons/typescript.svg",
+    location: "typescript.svg",
     alt: "Tailwind Logo",
   },
   {
     name: "Chakra-Ui",
-    location: "../../src/assets/icons/chakraui.svg",
+    location: "chakraui.svg",
     alt: "Chakra-Ui Logo",
   },
   {
     name: "Redux",
-    location: "../../src/assets/icons/redux.svg",
+    location: "redux.svg",
     alt: "Redux Logo",
   },
   {
     name: "SQL Basics",
-    location: "../../src/assets/icons/mysql.svg",
+    location: "mysql.svg",
     alt: "SQL Logo",
   },
-  { name: "PHP", location: "../../src/assets/icons/php.svg", alt: "PHP Logo" },
+  { name: "PHP", location: "php.svg", alt: "PHP Logo" },
   {
     name: "NodeJs",
-    location: "../../src/assets/icons/nodejs.svg",
+    location: "nodejs.svg",
     alt: "PHP Logo",
   },
 ];
 
 export const projectLists: ProjectListTypes[] = [
   {
-    image: "../../src/assets/projects/TodoApp.png",
+    image: "TodoApp.png",
     alt: "TodoApp",
     name: "Todo App",
     description: `A coding challenge from Frontend Mentor to build a todo app,it
@@ -94,7 +94,7 @@ export const projectLists: ProjectListTypes[] = [
     style: false,
   },
   {
-    image: "../../src/assets/projects/multiForm.png",
+    image: "multiForm.png",
     alt: "Multi-Step Form",
     name: "Multi-Step Form",
     description: `A coding challenge from Frontend Mentor to build a multi-step form that allows users to fill in 
@@ -114,7 +114,7 @@ export const projectLists: ProjectListTypes[] = [
     style: true,
   },
   {
-    image: "../../src/assets/projects/calculator.jpg",
+    image: "calculator.jpg",
     alt: "Calculator",
     name: "Calculator App",
     description: `A responsive calculator app that can perform basic arithmetic operations,

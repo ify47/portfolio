@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { projectLists } from './Data';
 
+const imageSrc = (selectedItem: string) => {
+    return new URL(`../assets/projects/${selectedItem}`, import.meta.url).href;
+}
+
 </script>
         
 <template>
@@ -21,7 +25,7 @@ import { projectLists } from './Data';
                     <a target="_blank" class="" :href="projects.site"><img :alt="projects.alt" loading="lazy" width="1711"
                             height="1141" decoding="async" data-nimg="1"
                             class="rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
-                            style="color:transparent;object-fit:cover" :src="projects.image"></a>
+                            style="color:transparent;object-fit:cover" :src="imageSrc(projects.image)"></a>
                 </div>
                 <div class="flex flex-col gap-6 p-8 md:w-1/2 lg:p-12 " :class="projects.style && 'md:order-first'">
                     <p class=" text-lg md:text-xl font-semibold text-gray-900">{{ projects.name }}</p>

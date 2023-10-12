@@ -30,8 +30,8 @@ onMounted(() => {
         observer.observe(section)
     })
 })
-</script>
 
+</script>
 <template>
     <header class="fixed top-0 z-30 w-full   bg-white">
         <Disclosure as="nav" v-slot="{ open }: { open: boolean }">
