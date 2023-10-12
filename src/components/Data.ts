@@ -14,7 +14,7 @@ export const navigation: NavigationType[] = [
 export const mySkills: SkillsType[] = [
   {
     name: "HTML",
-    location: "../../src/assets/icons/html.svg",
+    location: "../src/assets/icons/html.svg",
     alt: "HTML Logo",
   },
   { name: "CSS", location: "../../src/assets/icons/css.svg", alt: "CSS Logo" },
