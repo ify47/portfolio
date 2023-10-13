@@ -99,7 +99,7 @@ export const projectLists: ProjectListTypes[] = [
     name: "Multi-Step Form",
     description: `A coding challenge from Frontend Mentor to build a multi-step form that allows users to fill in 
     their details, make changes, and submit the form. Features include the ability to create
-     multi-step forms easily, customizable and flexible forms, validation and error handling, and responsive design`,
+     multi-step forms easily, customizable, validation and error handling, and responsive design`,
     tools: [
       "React",
       "Typescript",
