@@ -15,7 +15,7 @@ const imageSrc = (selectedItem: string) => {
             <div class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
                 <div class="mx-auto lg:max-w-lg lg:mx-0">
                     <h3 class="text-2xl text-center lg:text-left font-bold sm:text-3xl">About Me</h3>
-                    <p class="mt-4 text-center font-semibold text-gray-600">
+                    <p class="mt-4 font-semibold text-gray-600">
                         A <span class="text-black">CS Graduate </span> and an adept Frontend Web Developer with a passion
                         for building user-friendly and engaging web applications. I have experience working on a variety of
                         <span class="text-black">projects</span>, from small personal
