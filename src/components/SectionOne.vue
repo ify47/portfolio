@@ -2,12 +2,10 @@
 
 const downloadPdf = () => {
     const link = document.createElement('a');
-    link.href = '../Resume.pdf';
-    link.target = '_blank';
-    link.download = 'Ofikulu-Ifeanyi-Resume.pdf';
+    link.href = 'Resume.pdf';
+    link.setAttribute('download', 'Resume.pdf'); //or any other extension
     document.body.appendChild(link);
     link.click();
-    document.body.removeChild(link);
 }
 
 </script>
@@ -55,7 +53,7 @@ const downloadPdf = () => {
                             </a>
                         </div>
 
-                        <button type="button" @click="downloadPdf"
+                        <button v-on:click="downloadPdf()"
                             class="mt-8  rounded uppercase bg-indigo-600 w-[171px] p-3 text-sm/[0.8rem] font-semibold text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400">
                             Download resume
                         </button>
