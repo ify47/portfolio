@@ -40,7 +40,8 @@ const imageSrc = (selectedItem: string) => {
                                 class="absolute inset-0 translate-x-0.5 translate-y-0.5 bg-indigo-600 transition-transform group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
                             <span class="relative block border border-current font-bold text-center bg-white py-3">
-                                <img class="inline-block" :src="imageSrc(skill.location)" :alt="skill.alt">
+                                <img class="inline-block" width="20" height="20" :src="imageSrc(skill.location)"
+                                    :alt="skill.alt">
                                 {{ skill.name }}
                             </span>
                         </div>

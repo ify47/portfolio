@@ -39,9 +39,11 @@ const imageSrc = (selectedItem: string) => {
                     </div>
                     <div class="flex">
                         <a target="_blank" class="self-start rounded-lg p-1.5 hover:bg-gray-50 [&;_svg]:stroke-gray-500"
-                            :href="projects.site"><img src="../assets/icons/web.svg" alt="Web Icon"></a>
+                            :href="projects.site"><img width="24" height="24" src="../assets/icons/web.svg"
+                                alt="Web Icon"></a>
                         <a target="_blank" class="self-start rounded-lg p-1.5 hover:bg-gray-50 [&;_svg]:stroke-gray-500"
-                            :href="projects.github"><img src="../assets/icons/github.svg" alt="Github Icon"></a>
+                            :href="projects.github"><img width="24" height="24" src="../assets/icons/github.svg"
+                                alt="Github Icon"></a>
                     </div>
                 </div>
             </div>

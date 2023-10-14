@@ -1,5 +1,15 @@
 <script setup lang="ts">
 
+const downloadPdf = () => {
+    const link = document.createElement('a');
+    link.href = '../Resume.pdf';
+    link.target = '_blank';
+    link.download = 'Ofikulu-Ifeanyi-Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
 </script>
 
 
@@ -38,17 +48,17 @@
                         <div class="flex gap-1">
                             <a href="https://linkedin.com/in/ofikulu-ifeanyi" target="_blank"
                                 class="relative flex justify-center items-center hover:bg-gray-100 active:bg-gray-200 rounded-lg p-1.5 transition-colors duration-200 [&_svg]:stroke-gray-600 [&_svg]:hover:stroke-gray-700 [&_svg]:w-6 [&_svg]:h-6">
-                                <img src="../assets/icons/linkedin.svg" alt="LinkedIn Icon">
+                                <img width="24" height="24" src="../assets/icons/linkedin.svg" alt="LinkedIn Icon">
                             </a><a href="https://github.com/ify47" target="_blank"
                                 class="relative flex justify-center items-center hover:bg-gray-100 active:bg-gray-200 rounded-lg p-1.5 transition-colors duration-200 [&_svg]:stroke-gray-600 [&_svg]:hover:stroke-gray-700 [&_svg]:w-6 [&_svg]:h-6">
-                                <img src="../assets/icons/github.svg" alt="Github Icon">
+                                <img width="24" height="24" src="../assets/icons/github.svg" alt="Github Icon">
                             </a>
                         </div>
 
-                        <a href="#"
+                        <button type="button" @click="downloadPdf"
                             class="mt-8  rounded uppercase bg-indigo-600 w-[171px] p-3 text-sm/[0.8rem] font-semibold text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400">
                             Download resume
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>

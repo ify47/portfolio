@@ -47,13 +47,16 @@ const sendEmail = () => {
                 <p class="pt-2 pb-4">Feel free to Contact me by submitting the form</p>
                 <div class="space-y-4">
                     <p class="flex items-center font-semibold">
-                        <img class="w-5 h-5 mr-2 sm:mr-6" src="../assets/icons/location.svg" alt="Location Icon">
+                        <img class="w-5 h-5 mr-2 sm:mr-6" width="20" height="20" src="../assets/icons/location.svg"
+                            alt="Location Icon">
                         <span>United Kingdom</span>
                     </p>
                     <p class="flex items-center">
-                        <img class="w-5 h-5 mr-2 sm:mr-6" src="../assets/icons/message.svg" alt="Message Icon">
-                        <span class="flex">ifeanyiofi@gmail.com <button type="button" @click="copy"> <img class="ml-1"
-                                    src="../assets/icons/copy.svg" alt=""></button></span>
+                        <img class="w-5 h-5 mr-2 sm:mr-6" width="20" height="20" src="../assets/icons/message.svg"
+                            alt="Message Icon">
+                        <span class="flex">ifeanyiofi@gmail.com <button aria-label="Copy" type="button" @click="copy"><img
+                                    width="24" height="24" class="ml-1" src="../assets/icons/copy.svg"
+                                    alt=""></button></span>
                     </p>
                 </div>
             </div>
@@ -74,7 +77,7 @@ const sendEmail = () => {
                         class="block w-full rounded-md focus:ring focus:ri focus:ri" required></textarea>
                 </label>
                 <button type="submit"
-                    class="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ri bg-violet-400 text-white font-semibold focus:ri hover:ri">Submit</button>
+                    class="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ri bg-indigo-600 text-white font-semibold focus:ri hover:ri">Submit</button>
             </form>
         </div>
     </section>

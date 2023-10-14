@@ -59,7 +59,8 @@ onMounted(() => {
                     <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                         <div class="hidden sm:ml-6 sm:block">
                             <div class="flex space-x-4">
-                                <a v-for="item in navigation" :key="item.name" @click="scrollPageTo(item.scroll)"
+                                <a v-for="item in navigation" :key="item.name" href="/"
+                                    @click.prevent="scrollPageTo(item.scroll)"
                                     :class="[item.scroll === activeSection ? 'bg-gray-900 text-white' : 'text-black hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-base font-medium']"
                                     :aria-current="item.scroll === activeSection ? 'page' : undefined">{{ item.name }}</a>
                             </div>
@@ -74,7 +75,7 @@ onMounted(() => {
                 <DisclosurePanel class="sm:hidden">
                     <div class="space-y-1 px-2 pb-3 pt-2">
                         <DisclosureButton v-for="item in navigation" :key="item.name" as="a"
-                            @click="scrollPageTo(item.scroll)"
+                            @click.prevent="scrollPageTo(item.scroll)" href="/"
                             :class="[item.scroll === activeSection ? 'bg-gray-900 text-white' : 'text-black hover:bg-gray-700 hover:text-white', ' font-semibold block rounded-md px-3 py-2 text-base ']"
                             :aria-current="item.scroll === activeSection ? 'page' : undefined">{{ item.name }}
                         </DisclosureButton>
