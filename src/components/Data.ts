@@ -64,6 +64,8 @@ export const mySkills: SkillsType[] = [
     alt: "SQL Logo",
   },
   { name: "PHP", location: "php.svg", alt: "PHP Logo" },
+  { name: "Jest", location: "jest.svg", alt: "Jest Logo" },
+  { name: "Vitest + RTL", location: "vitest.svg", alt: "Vitest Logo" },
   {
     name: "NodeJs",
     location: "nodejs.svg",
@@ -73,6 +75,26 @@ export const mySkills: SkillsType[] = [
 
 export const projectLists: ProjectListTypes[] = [
   {
+    image: "ipAddress.jpg",
+    alt: "IpAddress Tracker",
+    name: "Ipaddress Tracker",
+    description: `A coding challenge from Frontend Mentor to build an Address Tracker,it
+     allows users to search for any IP addresses or domains and see the key information and location.`,
+    tools: [
+      "React",
+      "TypeScript",
+      "SCSS",
+      "vite",
+      "Redux Toolkit",
+      "React leaflet",
+      "Vitest",
+      "Github",
+    ],
+    site: "https://ify47.github.io/ip-address-tracker/",
+    github: "https://github.com/ify47/ip-address-tracker",
+    style: false,
+  },
+  {
     image: "TodoApp.png",
     alt: "TodoApp",
     name: "Todo App",
@@ -80,18 +102,10 @@ export const projectLists: ProjectListTypes[] = [
      allows users to create and manage a list of todos. It has features such as a light 
      and dark mode, drag and drop functionality, the ability to filter todos by status and 
      Local storage integration to save your todos and preferences.`,
-    tools: [
-      "React",
-      "SCSS",
-      "vite",
-      "Firebase",
-      "UseReducer",
-      "UseState",
-      "Github",
-    ],
+    tools: ["React", "SCSS", "vite", "UseReducer", "UseState", "Github"],
     site: "https://ify47.github.io/todo-app/",
     github: "https://github.com/ify47/todo-app",
-    style: false,
+    style: true,
   },
   {
     image: "multiForm.png",
@@ -111,18 +125,6 @@ export const projectLists: ProjectListTypes[] = [
     ],
     site: "https://ify47.github.io/multi-step-form/",
     github: "https://github.com/ify47/multi-step-form",
-    style: true,
-  },
-  {
-    image: "calculator.jpg",
-    alt: "Calculator",
-    name: "Calculator App",
-    description: `A responsive calculator app that can perform basic arithmetic operations,
-       including addition, subtraction, multiplication, and division. The app has
-        a clear and concise user interface, with dynamic input and output displays.`,
-    tools: ["React", "Styled Components", "UseState", "Github"],
-    site: "https://ify47.github.io/calculator-app/",
-    github: "https://github.com/ify47/calculator-app",
     style: false,
   },
 ];
