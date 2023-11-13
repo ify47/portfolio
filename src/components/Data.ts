@@ -64,8 +64,8 @@ export const mySkills: SkillsType[] = [
     alt: "SQL Logo",
   },
   { name: "PHP", location: "php.svg", alt: "PHP Logo" },
-  { name: "Jest", location: "jest.svg", alt: "Jest Logo" },
-  { name: "Vitest + RTL", location: "vitest.svg", alt: "Vitest Logo" },
+  { name: "Jest + RTL", location: "jest.svg", alt: "Jest Logo" },
+  { name: "Vitest", location: "vitest.svg", alt: "Vitest Logo" },
   {
     name: "NodeJs",
     location: "nodejs.svg",
@@ -79,14 +79,15 @@ export const projectLists: ProjectListTypes[] = [
     alt: "IpAddress Tracker",
     name: "Ipaddress Tracker",
     description: `A coding challenge from Frontend Mentor to build an Address Tracker,it
-     allows users to search for any IP addresses or domains and see the key information and location.`,
+     allows users to search for any IP addresses or domains and see the key information and location using a RESTful API.`,
     tools: [
       "React",
       "TypeScript",
       "SCSS",
-      "vite",
+      "Vite",
       "Redux Toolkit",
       "React leaflet",
+      "Axios",
       "Vitest",
       "Github",
     ],
@@ -102,7 +103,7 @@ export const projectLists: ProjectListTypes[] = [
      allows users to create and manage a list of todos. It has features such as a light 
      and dark mode, drag and drop functionality, the ability to filter todos by status and 
      Local storage integration to save your todos and preferences.`,
-    tools: ["React", "SCSS", "vite", "UseReducer", "UseState", "Github"],
+    tools: ["React", "SCSS", "Vite", "UseReducer", "UseState", "Github"],
     site: "https://ify47.github.io/todo-app/",
     github: "https://github.com/ify47/todo-app",
     style: true,
