@@ -129,3 +129,9 @@ export const projectLists: ProjectListTypes[] = [
     style: false,
   },
 ];
+
+export const emailKey = {
+  service: import.meta.env.VITE_SERVICE,
+  template: import.meta.env.VITE_TEMPLATE,
+  value: import.meta.env.VITE_VALUE,
+};

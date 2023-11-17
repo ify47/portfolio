@@ -4,6 +4,7 @@ import { toast } from 'vue3-toastify';
 import 'vue3-toastify/dist/index.css';
 import emailjs from '@emailjs/browser'
 import { ref, TextareaHTMLAttributes } from 'vue'
+import { emailKey } from './Data';
 
 const { toClipboard } = useClipboard()
 
@@ -17,13 +18,12 @@ const copy = async () => {
         : null
 }
 
-
 const form = ref<string | HTMLFormElement>('')
 const inputFieldReset = ref<string | null>(null);
 const inputTextarea = ref<TextareaHTMLAttributes['value']>('')
 
 const sendEmail = () => {
-    emailjs.sendForm('service_ify', 'template_ify', form.value, 'oeHarIMNamfOEKcBP')
+    emailjs.sendForm(emailKey.service, emailKey.template, form.value, emailKey.value)
         .then(() => {
             toast.success('Sent!', {
                 position: toast.POSITION.TOP_CENTER,
