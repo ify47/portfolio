@@ -25,7 +25,7 @@
 ✔️ Contact Info\
 ✔️ Resume
 
-To view live portfolio, **[click here](https://ifeanyiofikulu.vercel.app)**
+To view live portfolio, **[click here](https://ifeanyiofikulu.dev)**
 
 ## Tools Used 🛠️
 * Vue + Vite
