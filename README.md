@@ -1,11 +1,8 @@
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio
 
-> https://ify47.github.io
-
-
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)]
-[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://varadbhogayata.github.io/)
+[![Website shields.io](https://img.shields.io/badge/website-up-yellow)]
 [![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/ofikulu-ifeanyi/)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
@@ -15,11 +12,11 @@
 ⚡️ Easy to modify
 
 ## Installation & Deployment 📦
-- Clone the repository and modify the content of <b>index.html</b> according to your requirement.
-- Add or remove images from `ify47.github.io/assets/` directory as per your requirement.
-- I highly recommend to use [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to deploy the website the EASIEST WAY.
+- Clone the repository and modify the contents of <b>components folder</b> according to your requirement.
+- Add or remove images from `/assets/` directory as per your requirement.
+- I highly recommend to use [Vercel App](https://vercel.com/docs) to deploy the website the EASIEST WAY.
 - To deploy your website, first you need to create github repository with name `<your-github-username>.github.io`. Please don't give any other name.
-- Push the generated code to the `master` branch of this repository.
+- Push the generated code to the `main` branch of this repository.
 
 ## Sections 📚
 ✔️ About me\
@@ -28,12 +25,12 @@
 ✔️ Contact Info\
 ✔️ Resume
 
-To view a live example, **[click here](https://../)**
+To view live portfolio, **[click here](https://ifeanyiofikulu.vercel.app)**
 
 ## Tools Used 🛠️
 * Vue + Vite
 * Tailwindcss
-* Emailjs
+* Emailjs (Not displayed in repo, Took it out because of my credenntials)
 
 ## Contributing 💡
 #### Step 1
