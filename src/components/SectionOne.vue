@@ -2,8 +2,8 @@
 
 const downloadPdf = () => {
     const link = document.createElement('a');
-    link.href = 'MyResume.pdf';
-    link.setAttribute('download', 'MyResume.pdf'); //or any other extension
+    link.href = 'Resume.pdf';
+    link.setAttribute('download', 'Resume.pdf'); //or any other extension
     document.body.appendChild(link);
     link.click();
 }
