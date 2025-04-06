@@ -6,7 +6,7 @@
 <template>
     <footer class="p-6 ">
         <div class="flex items-center justify-center px-6  text-sm">
-            <span class="font-semibold">© 2023. Made by <span class="underline">Ifeanyi Ofikulu</span></span>
+            <span class="font-semibold">© {{ new Date().getFullYear() }}. Made by <span class="underline">Ifeanyi Ofikulu</span></span>
         </div>
     </footer>
 </template>
